@@ -1,0 +1,49 @@
+
+
+
+				- Decalre ls_HDCAvailable_B with type static BOOL 
+				
+				
+				
+				- Decalre ls_HDCAvailable_B with type static BOOL and set to C_SCL_HDC_Available_UB
+
+
+
+				- Test for TRUE case of condition l_AVHActive_B is equal to TRUE
+			
+			
+			
+			
+				- Test for FALSE case of condition return value of function STM_InfoState_getDegradationReason with argument(STM_INFOSTATE_AVH) is equal to InfoState_Available
+				- Test for TRUE case of condition return value of function STM_InfoState_getDegradationReason with argument(STM_INFOSTATE_HDC) is equal to InfoState_Available
+			
+			
+			
+			
+				- l_State_HBB_ST is set to return value of STM_Component_getCurrentState with argument(STM_INFOSTATE_HBB) 
+			
+			
+			
+			
+				- l_State_HBB_ST is set to return value of STM_Component_getCurrentState with argument(STM_INFOSTATE_HBB) is casting with type STM_State_HBB
+
+
+
+
+				- Cover for switch(l_State_HBB_ST) case default
+
+
+
+				- l_AVHAvailable_B is set to C_SCL_AVH_NotAvailable_UB
+				- break for switch(l_State_HBB_ST)
+
+
+
+
+
+
+
+
+
+
+

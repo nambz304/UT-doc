@@ -1,0 +1,62 @@
+RBVAR_Debug.c
+VAR_OBDSWitch_COMMON.c
+RBVAR_VarCode_PROJECT.c
+
+
+
+
+
+
+
+
+find -type f -name *.c | grep RBVAR_Debug.c
+find -type f -name *.c | grep VAR_OBDSWitch_COMMON.c
+find -type f -name *.c | grep RBVAR_VarCode_PROJECT.c
+
+
+find -type f -name *.c | grep RBAPLCUST_RDBI_CBDS.c
+find -type f -name *.c | grep RBAPLCUST_RoutineControl_iBoosterActuatorTest.c
+find -type f -name *.c | grep RBAPLOBD_Global.c
+find -type f -name *.c | grep Dem_PrjSpecificIndiHandling.c
+find -type f -name *.c | grep DSMSim_PRJ_Specific.c
+find -type f -name *.c | grep rba_DemObdBasic_ProjectExtension.c
+find -type f -name *.c | grep RBHMI_ConfigOutputDriver_PRJ.c
+find -type f -name *.c | grep RBHMI_ConfigOutputDriver_PRJ.c
+find -type f -name *.c | grep RBVAR_OutputDriver_PROJECT.c
+find -type f -name *.c | grep RBDfaEmf_SignalOutput_BMWG01.c
+find -type f -name *.c | grep TestEnvironment_Fee_EV711101.c
+find -type f -name *.c | grep TestEnvironment_Fee_EV711106.c
+find -type f -name *.c | grep RBCooLS_Main_Volvo.c
+find -type f -name *.c | grep RBDfaEmf_SignalOutput_BMWG01.c
+
+mkdir file_c
+
+cp .\SAIC_EP_CMP_ESPHevX_Int\ESPhevXSAICEP\rb\as\saicep\esphevx\app\net\RBScl\src\Rcv\ComScl_Scl_RADAR_HSC2_FrP00_Rx.c .\file_c\ComScl_Scl_RADAR_HSC2_FrP00_Rx.c
+cp .\FAW_IPB1.1_Int_ESP\FAW_ESP\rb\as\fawESP\core\app\dcom\RBAPLCust\src\common\RBAPLCUST_ExpectedOBDType.c .\file_c\RBAPLCUST_ExpectedOBDType.c
+cp .\FAW_IPB1.1_Int_ESP\FAW_ESP\rb\as\fawESP\core\app\dcom\RBAPLCust\src\common\RBAPLCUST_RDBI_BLS.c .\file_c\RBAPLCUST_RDBI_BLS.c
+cp .\FAW_IPB1.1_Int_ESP\FAW_ESP\rb\as\fawESP\core\app\dcom\RBAPLCust\src\iBooster\RBAPLCUST_RoutineControl_iBoosterActuatorTest.c .\file_c\RBAPLCUST_RoutineControl_iBoosterActuatorTest.c
+cp .\FAW_IPB1.1_Int_ESP\FAW_ESP\rb\as\fawESP\core\app\dsm\RBWarningIndicator\src\Dem_PrjSpecificIndiHandling.c .\file_c\Dem_PrjSpecificIndiHandling.c
+cp .\FAW_IPB1.1_Int_ESP\FAW_ESP\rb\as\fawESP\core\app\dsm\RBDsmSim\RB_SimDsmCfg\PRJ_Specific\src\DSMSim_PRJ_Specific.c .\file_c\DSMSim_PRJ_Specific.c
+cp .\FAW_IPB1.1_Int_ESP\FAW_ESP\rb\as\fawESP\core\app\dsm\RBOBD\OBDGeneric\src\rba_DemObdBasic_ProjectExtension.c .\file_c\rba_DemObdBasic_ProjectExtension.c
+cp .\FAW_IPB1.1_Int_ESP\FAW_ESP\rb\as\fawESP\core\app\dsm\RBHMI_IB2\src\RBHMI_ConfigOutputDriver_PRJ.c .\file_c\RBHMI_ConfigOutputDriver_PRJ.c
+cp .\FAW_IPB1.1_Int_ESP\FAW_ESP\rb\as\fawESP\core\app\dsm\RBVAR\src\RBVAR_OutputDriver_PROJECT.c .\file_c\RBVAR_OutputDriver_PROJECT.c
+cp .\FAW_IPB1.1_Int_ESP\FAW_ESP\rb\as\fawESP\esp\hswpr\src\DfaEmf\src\RBDfaEmf_SignalOutput_BMWG01.c .\file_c\RBDfaEmf_SignalOutput_BMWG01.c
+cp .\FAW_IPB1.1_Int_ESP\FAW_ESP\rb\as\fawESP\esp\hswpr\tst\hswsim\src\TestEnvironment_Fee_EV711101.c .\file_c\TestEnvironment_Fee_EV711101.c
+cp .\FAW_IPB1.1_Int_ESP\FAW_ESP\rb\as\fawESP\esp\hswpr\tst\hswsim\src\TestEnvironment_Fee_EV711106.c .\file_c\TestEnvironment_Fee_EV711106.c
+cp .\FAW_IPB1.1_Int_ESP\FAW_ESP\rb\as\fawESP\esp\hwp\src\RBCooLS\src\RBCooLS_Main_Volvo.c .\file_c\RBCooLS_Main_Volvo.c
+
+
+
+
+\CNMS_12-06\CNMS_ESP\rb\as\cnms_core\app\dsm\RBVAR\src\RBVAR_Debug.c
+\CNMS_12-06\CNMS_ESP\rb\as\rbcn\core\app\dsm\RBOBD\OBDSwitch\src\VAR_OBDSWitch_COMMON.c
+\CNMS_12-06\CNMS_ESP\rb\as\rbcn\core\app\dsm\RBVAR\src\RBVAR_VarCode_PROJECT.c
+
+
+
+
+
+
+
+
+

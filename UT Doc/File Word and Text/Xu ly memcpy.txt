@@ -1,0 +1,15 @@
+- Neu ko stub "void * memcpy(void *l_Destination_PV, const void *l_Source_PV, unsigned int l_Length_UL);" ben stub.h thi no ko tu auto được nên ta làm 2 bước:
+	+ B1: Stub hàm này bên stub.h rồi chạy auto để nó gen ra cái ruột của hàm stub memcpy và các test case => nhưng file test này chạy ko được đâu vì nó bị conflic type của memcpy từ file stub.h và memcpy trong cantata có sẵn
+	+ B2: ta tạo lại 1 test script bằng tay rồi copy ruột của stub memcpy và các test case qua và chạy => Oke 
+	
+	
+	
+	\\hc-ut40070c\duongnguyen\temp\FrameWork.zip right?
+	
+	
+	
+	
+	
+	
+	
+	

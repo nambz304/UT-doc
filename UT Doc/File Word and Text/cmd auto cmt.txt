@@ -1,0 +1,30 @@
+cat  | sed -n '/^---- Test goal:/,/^---- Testing technique:/p' | sort -u | egrep -v '^---- Test goal:|^---- Preconditions:|^---- Test steps:|^----        Input values:|^----        Expected result:|^---- Post conditions|^---- Testing technique'
+
+
+
+
+cat test_RBAPLCUST_RDBI_IOCtrlState.c | sed -n '/^---- Preconditions:/,/^---- Testing technique:/p' | sort -u | egrep -v '^---- Preconditions:|^---- Test steps:|^----        Input values:|^----        Expected result:|^---- Post conditions|^---- Testing technique'
+
+
+
+
+cat test_a.c | sed '/^---- Preconditions:/,/^---- Testing technique:/{ s/=/is set to value/g; s/\./ then set to element /g; s/\[0\]/ with index 0/g; }' | grep '\- Nm_StateType'
+
+
+
+
+cat test_a.c | sed -n '/^---- Test goal:/,/^---- Testing technique:/p' | sort -u | egrep -v '^---- Preconditions:|^---- Test steps:|^----        Input values:|^----        Expected result:|^---- Post conditions|^---- Testing technique'
+
+
+//------------
+
+
+
+BSS02_SP05
+CNMS
+True case - Positive 
+False case - Negative
+
+- CNMS cái base line phải cực kỳ đúng 
+- Baseline: hoặc BL hoặc BSS có thêm sau _SP(SP = Sprint)
+

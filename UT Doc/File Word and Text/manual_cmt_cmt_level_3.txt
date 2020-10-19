@@ -1,0 +1,36 @@
+
+
+
+
+
+B1: thay the => viet script thay the 
+
+=	"is set to"
+&	"address of "
+ACCESS_EXPECTED_VARIABLE	"return value of function ACCESS_EXPECTED_VARIABLE with argument "
+ACCESS_VARIABLE				"return value of function ACCESS_VARIABLE wtih argument "
+* ErrorCode					"value of pointer ErrorCode with type "
+Check the code coverage.	"    - "
+
+
+
+B2: dung beyon compare chuyen qua
+=> nho copy file backup truoc
+
+
+B3: Sua lai cac pointer bang cach search "value of pointer" va di tung dong sua
+
+
+B4: di cmt test goal
+
+
+
+//-------------------------------------------------------
+Cach thay the <Insert test case description here>
+
+B1: xoa het may cai cmt cu tai START_TEST
+B2: replace:
+\r\n        /* Expected Call Sequence  */
+               "<Insert test case description here>");\r\n\r\n        /* Expected Call Sequence  */
+
+=> giu nguyen dau tab
